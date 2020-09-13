@@ -1,9 +1,11 @@
+// https://practice.geeksforgeeks.org/problems/maximum-repeating-number/0
+
 // Find the maximum repeating number in the array. 
 // If there are two or more maximum repeating numbers return the element having least value.
 
 int maxRepeating(int *arr, int n, int k)
 {
-  int innerMax = 0, outerMax = 0, value = 0, i, j;
+  int innerMax = 0, outerMax = 0, value = arr[0], i, j;
   for (i = 0; i < n; i++)
   {
     innerMax = 0;
@@ -33,3 +35,8 @@ int maxRepeating(int *arr, int n, int k)
   }
   return value;
 }
+
+
+// Your program took more time than expected.Time Limit Exceeded
+// Expected Time Limit < 1.672sec
+// Hint : Please optimize your code and submit again.
