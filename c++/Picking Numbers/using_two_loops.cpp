@@ -1,4 +1,4 @@
-
+// https://www.hackerrank.com/challenges/picking-numbers
 int pickingNumbers(vector<int> a) {
     int max =0, innerMax;
     for(int i =0; i< a.size(); i++){
