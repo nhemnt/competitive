@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem
+// Climbing the Leaderboard
 
 vector<int> climbingLeaderboard(vector<int> ranked, vector<int> player)
 {
