@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/designer-pdf-viewer/problem
+
 int designerPdfViewer(vector<int> h, string word) {
 
     std::map<char, int> words;
