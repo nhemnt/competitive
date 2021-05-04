@@ -35,6 +35,7 @@ const merge = (left, right) => {
   }
   return [...arr, ...left, ...right];
 }
+
 const mergeSort = (arr) => {
   if(arr.length <2){
       return arr;
